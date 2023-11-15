@@ -17830,6 +17830,100 @@
 				}
 			],
 			"ENG_name": "Zombie"
+		},
+		{
+			"name": "星界精靈",
+			"source": "SAS",
+			"page": 21,
+			"srd": true,
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"lineage": "VRGR",
+			"darkvision": 60,
+			"traitTags": [
+				"Improved Resting"
+			],
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"elvish": true
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/elf.mp3"
+			},
+			"entries": [
+				{
+					"name": "年龄",
+					"ENG_name": "Age",
+					"type": "entries",
+					"entries": [
+						"尽管精灵和人类会在差不多的年龄达到生理成熟，但精灵对成年的见解并不只是生理成熟，还包括世俗的经验。精灵通常在100岁前后声明成年并得到成年名称，且其寿命可达750岁。"
+					]
+				},
+				{
+					"name": "阵营",
+					"ENG_name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"精灵热爱自由、多元和自我表现，因此他们强烈倾向于较温和的混乱。他们将他人的自由当作自己的来重视与保护。他们通常都是善良的。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "体型",
+					"ENG_name": "Size",
+					"entries": [
+						"精灵的身高范围从不到五尺到超过六尺，且有着苗条的体格。你的体型为中型。"
+					]
+				},
+				{
+					"name": "黑暗视觉",
+					"ENG_name": "Darkvision",
+					"entries": [
+						"习惯了微光森林与夜空，你在黑暗与微光环境下仍能保持卓越视觉。你在看距离你60尺范围内的事物时，微光的照明程度对你而言视作明亮，黑暗则视作微光。 你无法辨别黑暗中的颜色，而只能看到灰黑的轮廓。"
+					],
+					"type": "entries"
+				},
+				{
+					"name": "敏锐感官",
+					"entries": [
+						"你熟练于{@skill 察觉}技能。"
+					],
+					"type": "entries"
+				},
+				{
+					"name": "精类血统",
+					"entries": [
+						"你在对抗{@condition 魅惑}的豁免检定中具有优势，且魔法无法让你入睡。"
+					],
+					"type": "entries"
+				},
+				{
+					"name": "传思",
+					"entries": [
+						"精灵并不需要睡眠。取而代之，他们一天会进行4小时保留潜意识的深度冥想。（通用语将这种冥想称为\"传思\"）在冥想时，你勉强算是会作梦；这些梦境实际上是在多年训练下产生的反射性心灵锻炼。在以这种方式休息后，你得到与人类8小时睡眠后相同的益处。",
+						"{@note 如果你在长休期间冥想，你可以在花费4小时完成冥想后，在剩下的4小时中保持清醒，并进行轻省活动。你仍然需要花费8小时来完成长休。}"
+					],
+					"type": "entries"
+				},
+				{
+					"name": "语言",
+					"ENG_name": "Languages",
+					"entries": [
+						"你能够说、读、写通用语和精灵语。精灵语如流体般流畅，有着精妙的语调制化和复杂的语法结构。精灵文学丰富而多元，他们的诗歌在其他种族之间也很受欢迎。许多吟游诗人都会学习精灵语，并将其韵律运用在他们自己的诗作中。"
+					],
+					"type": "entries"
+				}
+			]
 		}
 	]
 }
